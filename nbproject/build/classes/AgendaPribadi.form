@@ -35,9 +35,6 @@
   <SubComponents>
     <Container class="javax.swing.JPanel" name="jPanel1">
       <Properties>
-        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="ff" green="ff" red="66" type="rgb"/>
-        </Property>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
             <TitledBorder title="Ulangan Tengah Semester">
@@ -66,11 +63,13 @@
                                       <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="jDateChooser1" pref="332" max="32767" attributes="0"/>
+                                          <Component id="jTextField1" max="32767" attributes="0"/>
+                                          <Component id="jTextField2" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
                                       <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jDateChooser1" pref="390" max="32767" attributes="0"/>
-                                      <Component id="jTextField1" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="jTextField2" alignment="0" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
@@ -185,9 +184,6 @@
         </Container>
         <Component class="javax.swing.JButton" name="btnTambah">
           <Properties>
-            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="cc" green="cc" red="cc" type="rgb"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Tambah"/>
           </Properties>
           <Events>
@@ -196,9 +192,6 @@
         </Component>
         <Component class="javax.swing.JButton" name="btnBersihkan">
           <Properties>
-            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="cc" green="cc" red="cc" type="rgb"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Bersihkan"/>
           </Properties>
           <Events>
@@ -207,9 +200,6 @@
         </Component>
         <Component class="javax.swing.JButton" name="btnHapus">
           <Properties>
-            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="cc" green="cc" red="cc" type="rgb"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Hapus"/>
           </Properties>
           <Events>
@@ -218,9 +208,6 @@
         </Component>
         <Component class="javax.swing.JButton" name="btnSimpan">
           <Properties>
-            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="cc" green="cc" red="cc" type="rgb"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Simpan"/>
             <Property name="toolTipText" type="java.lang.String" value=""/>
           </Properties>
@@ -230,9 +217,6 @@
         </Component>
         <Component class="javax.swing.JButton" name="btnKeluar">
           <Properties>
-            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="cc" green="cc" red="cc" type="rgb"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Keluar"/>
           </Properties>
           <Events>
@@ -241,9 +225,6 @@
         </Component>
         <Component class="javax.swing.JButton" name="btnImport">
           <Properties>
-            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="cc" green="cc" red="cc" type="rgb"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Import"/>
           </Properties>
           <Events>
